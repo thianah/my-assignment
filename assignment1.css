@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-attachment: black;
+  background-color: black;
+}
+.container {
+  position: relative;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0.1);
+}
+.header {
+  position: absolute;
+  top: -30px;
+  left: 20px;
+  background-color: #ff1493;
+  padding-inline-start: 10px 20px;
+  border-radius: 8px;
+}
+.h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+.content {
+  margin-top: 50px;
+}
+.p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}

@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, Times, serif;
+  /* text-decoration: none; */
+}
+
+body {
+  background-color: #a7a8cd;
+}
+
+.main-box {
+  /* border: 1px solid red; */
+  height: 31.25rem;
+  align-content: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-block-start: 45px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.main-box .new {
+  background-color: #fdf1b5;
+  /* height: 35px; */
+  padding-inline: 5px;
+  padding-block: 7px;
+  /* width: 30%; */
+  font-size: 0.7rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  top: 10px;
+  left: -10px;
+}
+
+.main-box .image {
+  /* border: 3px solid indigo; */
+  height: 25%;
+}
+
+.main-box .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/* **************************************************TEXT STYLING ****************************/
+.main-box .text {
+  /* border: 3px solid green; */
+  /* height: 35%; */
+  padding: 20px;
+  background-color: #ffffff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.main-box .text h1 {
+  padding-block-end: 0.8rem;
+}
+
+.main-box .text h1 span {
+  font-size: large;
+  color: #7c7c7c;
+}
+
+.main-box .text p {
+  text-align: justify;
+  font-size: 1.2rem;
+  text-decoration: solid;
+  font-weight: normal;
+  line-height: 1.9;
+}
